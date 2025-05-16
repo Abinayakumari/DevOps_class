@@ -1,8 +1,8 @@
 const greet=require('./app');
 
-if((great) ==="Hello from DevOps|"){
+if((greet) ==="hello devOps|"){
     console.log("✅Test passed");
-    Process.exit(0);
+    process.exit(0);
 }else{
     console.log("❌Test failed");
     process.exit(1);
